@@ -28,7 +28,7 @@ EEPROM_25XM04 = 14
 eeprom = EEPROM_25X256
 ###########################################
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 import os, time
 
 # End markers for parsing

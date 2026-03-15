@@ -2,7 +2,7 @@
 # Glitch all I2C devices on the bus
 #
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 from bus_pirate.helper import Helper
 
 # Search and connect to the Bus Pirate

@@ -2,7 +2,7 @@
 # Scan and send deauth to all WiFi networks found
 #
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 from bus_pirate.helper import Helper
 
 # Search and connect to the Bus Pirate

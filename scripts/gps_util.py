@@ -1,6 +1,6 @@
 # Parse NMEA packets from a UBlox M10 GPS module hooked up to a Bus Pirate.
 
-from bus_pirate.bus_pirate_wifi import BusPirateWifi
+from pybuspriate import BusPirateWifi
 import time
 import os
 import pynmea2 # pip install pynmea2

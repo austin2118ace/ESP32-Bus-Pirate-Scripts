@@ -3,7 +3,7 @@
 # The file will be saved in the current directory
 #
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 import os, time
 
 # End markers for parsing

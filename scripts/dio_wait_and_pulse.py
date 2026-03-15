@@ -7,7 +7,7 @@ read_pin = 2          # Pin to monitor for LOW state
 pulse_pin = 3         # Pin to send the pulse to
 pulse_duration = 500  # Pulse duration in us (500 = 0.5 ms)
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 
 # Connect to the Bus Pirate
 bp = BusPirate.auto_connect()

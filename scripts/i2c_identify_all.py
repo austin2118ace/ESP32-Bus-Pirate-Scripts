@@ -2,7 +2,7 @@
 # Scan and identify all I2C devices on the bus
 #
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 from bus_pirate.helper import Helper
 
 # Connect to the Bus Pirate

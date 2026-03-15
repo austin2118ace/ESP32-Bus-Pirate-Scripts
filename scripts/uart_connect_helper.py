@@ -1,4 +1,4 @@
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 from bus_pirate.bus_pirate_wifi import BusPirateWifi
 
 # Small helper to connect to a UART port on the Bus Pirate.

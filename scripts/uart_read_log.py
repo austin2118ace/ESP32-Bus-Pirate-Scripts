@@ -6,7 +6,7 @@
 
 duration = 600  # Duration of the logging in seconds
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 import time
 import os
 

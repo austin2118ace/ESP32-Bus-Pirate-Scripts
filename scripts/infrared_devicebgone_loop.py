@@ -2,7 +2,7 @@
 # Send device-b-gone (off all devices) command endlessly.
 #
 
-from bus_pirate.bus_pirate import BusPirate
+from pybuspirate import BusPirate
 
 # Connect to the Bus Pirate
 bp = BusPirate.auto_connect()

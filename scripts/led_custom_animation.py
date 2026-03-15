@@ -3,7 +3,7 @@
 # This example uses a moving light effect with a trailing tail.
 #
 
-from  bus_pirate.bus_pirate import BusPirate
+from  pybuspirate import BusPirate
 import time
  
  ##################################################
