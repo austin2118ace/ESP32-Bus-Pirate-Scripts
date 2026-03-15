@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Python wrapper classes for the ESP32 Bus Pirate project"
 authors = [
   {name = "geo-tp"},
-  {name = "KonradIT", email = "tzu-ping@example.com"},
+  {name = "KonradIT"},
 ]
 readme = "README.md"
 requires-python = ">=3.9"
