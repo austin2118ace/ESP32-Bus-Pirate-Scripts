@@ -1,0 +1,21 @@
+[project]
+name = "pybuspirate"
+version = "1.0.0"
+description = "Python wrapper classes for the ESP32 Bus Pirate project"
+authors = [
+  {name = "geo-tp"},
+  {name = "KonradIT", email = "tzu-ping@example.com"},
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pyserial>=3.5",
+    "websocket-client>=1.9.0",
+]
+[project.urls]
+Repository = "https://github.com/geo-tp/ESP32-Bus-Pirate-Scripts.git"
+ESP32BusPirate = "https://github.com/geo-tp/EPS32-Bus-Pirate.git"
+
+
+[tool.setuptools.packages.find]
+where=["pybuspirate"]
